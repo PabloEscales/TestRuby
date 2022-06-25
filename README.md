@@ -51,8 +51,9 @@ co = Checkout.new(promotional_rules)
 co.scan(001)
 co.scan(002)
 co.scan(003)
-p co.items
-p co.total
+p "Basket:" 
+p "Basket:#{co.items}"
+p "Total price expected: #{co.total}"
 
 puts "test 2"
 puts "-------------------------"
@@ -60,8 +61,8 @@ co = Checkout.new(promotional_rules)
 co.scan(001)
 co.scan(003)
 co.scan(001)
-p co.items
-p co.total
+p "Basket:#{co.items}"
+p "Total price expected: #{co.total}"
 
 puts "test 3"
 puts "-------------------------"
@@ -70,5 +71,5 @@ co.scan(001)
 co.scan(002)
 co.scan(001)
 co.scan(003)
-p co.items
-p co.total
+p "Basket:#{co.items}"
+p "Total price expected: #{co.total}"
