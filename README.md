@@ -33,13 +33,13 @@ Total price expected: $73.76
 
 --------------------------------------------------------------------------------------------------------
 
-checkout.rb
+<strong>checkout.rb</strong>
 
 Implement the #scan method, which returns the instance variable (@item) with the select PRODUCTS inside.
 Implement #total method, which returns the total price with or without discount as appropriate.
 
 
-checkout_spec.rb
+<strong>checkout_spec.rb</strong>
 
 Run the command "rspec checkout_spec.rb", which returns a test from the file checkout.rb.
 
