@@ -1,4 +1,4 @@
-Technical test
+# Technical test
 
 Our client is an online marketplace, here is a sample of some of the products available on our site:
 Product code  | Name                   | Price
@@ -33,17 +33,17 @@ Total price expected: $73.76
 
 --------------------------------------------------------------------------------------------------------
 
-<strong>checkout.rb</strong>
+## <strong>checkout.rb</strong>
 
 Implement the #scan method, which returns the instance variable (@item) with the select PRODUCTS inside.
 Implement #total method, which returns the total price with or without discount as appropriate.
 
 
-<strong>checkout_spec.rb</strong>
+## <strong>checkout_spec.rb</strong>
 
 Run the command "rspec checkout_spec.rb", which returns a test from the file checkout.rb.
 
-# 3 Tests: 
+## 3 Tests: 
 
 puts "test 1"
 puts "-------------------------"
