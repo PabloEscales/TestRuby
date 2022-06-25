@@ -43,7 +43,7 @@ Implement #total method, which returns the total price with or without discount 
 
 Run the command "rspec checkout_spec.rb", which returns a test from the file checkout.rb.
 
-## 3 Tests: 
+## 3 Tests RSpec: 
 
 puts "test 1"
 puts "-------------------------"
