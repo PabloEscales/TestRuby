@@ -51,7 +51,6 @@ co = Checkout.new(promotional_rules)
 co.scan(001)
 co.scan(002)
 co.scan(003)
-p "Basket:" 
 p "Basket:#{co.items}"
 p "Total price expected: #{co.total}"
 
