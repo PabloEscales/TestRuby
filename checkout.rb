@@ -1,12 +1,12 @@
 promotional_rules = {
   over_60_discount: true,
   same_product_discount: true,
-  promo_product: "lavanda"
+  promo_product: "Lavender heart"
 }
 PRODUCTS = [
-  {code: 001, name: "lavanda", price: 9.25},
-  {code: 002, name: "remera", price: 45.0},
-  {code: 003, name: "remera", price: 19.95}
+  {code: 001, name: "Lavender heart", price: 9.25},
+  {code: 002, name: "Personalised cufflinks", price: 45.0},
+  {code: 003, name: "Kids T-shirt", price: 19.95}
 ]
 class Checkout
   attr_reader :items
@@ -36,32 +36,3 @@ class Checkout
     return total
   end
 end
-
-puts "-------------------------"
-puts "test 1"
-puts "-------------------------"
-co = Checkout.new(promotional_rules)
-co.scan(001)
-co.scan(002)
-co.scan(003)
-p co.items
-p co.total
-puts "-------------------------"
-puts "test 2"
-puts "-------------------------"
-co = Checkout.new(promotional_rules)
-co.scan(001)
-co.scan(003)
-co.scan(001)
-p co.items
-p co.total
-puts "-------------------------"
-puts "test 3"
-puts "-------------------------"
-co = Checkout.new(promotional_rules)
-co.scan(001)
-co.scan(002)
-co.scan(001)
-co.scan(003)
-p co.items
-p co.total
