@@ -11,12 +11,12 @@ describe Checkout do
       expect(74.2).to eq(result)
     end
   it "with items: 001 002 001, should return total" do
-      co = Checkout.new
-      co.scan(001)
-      co.scan(003)
-      co.scan(001)
-      result = co.total
-      expect(38.45).to eq(result)
+    co = Checkout.new
+    co.scan(001)
+    co.scan(003)
+    co.scan(001)
+    result = co.total
+    expect(38.45).to eq(result)
   end
   end
   describe "testing with promo" do

@@ -4,12 +4,13 @@ promotional_rules = {
   promo_product: "Lavender heart"
 }
 PRODUCTS = [
-  {code: 001, name: "Lavender heart", price: 9.25},
-  {code: 002, name: "Personalised cufflinks", price: 45.0},
-  {code: 003, name: "Kids T-shirt", price: 19.95}
+  { code: 001, name: "Lavender heart", price: 9.25 },
+  { code: 002, name: "Personalised cufflinks", price: 45.0 },
+  { code: 003, name: "Kids T-shirt", price: 19.95 }
 ]
 class Checkout
   attr_reader :items
+
   def initialize(promotional_rules = {})
     @promotional_rules = promotional_rules
     @items = []
