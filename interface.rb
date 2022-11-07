@@ -2,27 +2,27 @@ require_relative "guess"
 
 
 puts "-*-*-*-*-*-*-*-*-*-*-"
-puts " BIENVENIDO A GUESS "
+puts " Welcome to GUESS "
 puts "-*-*-*-*-*-*-*-*-*-*-"
 puts "         |           "
 puts "         V           "
-puts "Escribe un numero del 1 al 10:"
+puts "Write a number from 1 to 10:"
 p guess
 puts "                     "
-puts "Sumale mentalmente 8 y presiona 'enter'"
+puts "Mentally add 8 and press 'enter'"
 gets
 puts "         |           "
 puts "         V           "
-puts "Restale 3 y presiona 'enter'"
+puts "Subtract 3 and press 'enter'"
 gets
 puts "         |           "
 puts "         V           "
-puts "Restale el numero que elegiste y presiona 'enter'"
+puts "Subtract the number you chose and press 'enter'"
 gets
 puts "         |           "
 puts "         V           "
-puts "dejame pensar el numero que elegiste"
+puts "let me think the number you chose"
 gets
 puts "         |           "
 puts "         V           "
-puts "Tu numero es: 5 !!! "
+puts "Your number is: 5 !!! "
